@@ -14,7 +14,7 @@ describe('pipeline.formatHeader', () => {
     const formattedHeader = formatHeader(header)
     expect(formattedHeader).to.contain('BEGIN:VCALENDAR')
     expect(formattedHeader).to.contain('VERSION:2.0')
-    expect(formattedHeader).to.contain('PRODID:adamgibbons/ics')
+    expect(formattedHeader).to.contain('PRODID:dumbmoron/ics0')
   })
   it('writes a product id', () => {
     const header = buildHeader({ productId: 'productId'})

@@ -1,11 +1,20 @@
-ics
+ics0
 ==================
+
+a zero-dependency of fork of [ics](https://github.com/adamgibbons/ics)
 
 The [iCalendar](http://tools.ietf.org/html/rfc5545) generator
 
 [![npm version](https://badge.fury.io/js/ics.svg)](http://badge.fury.io/js/ics)
 [![CI](https://github.com/adamgibbons/ics/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/adamgibbons/ics/actions/workflows/build.yml)
 [![Downloads](https://img.shields.io/npm/dm/ics.svg)](http://npm-stat.com/charts.html?package=ics)
+
+## caveats
+if you need: 
+- runtime schema validation, or
+- unicode wrapping in the description
+
+use the original package. otherwise, this might just work for you
 
 ## Install
 

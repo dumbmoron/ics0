@@ -1,12 +1,9 @@
-
-import { runes, substring } from 'runes2'
-
 export default function foldLine(line) {
   const parts = []
   let length = 75
-  while (runes(line).length > length) {
-    parts.push(substring(line, 0, length))
-    line = substring(line, length)
+  while (line.length > length) {
+    parts.push(line.substring(0, length))
+    line = line.substring(length)
     length = 74
   }
   parts.push(line)

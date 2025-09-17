@@ -5,7 +5,7 @@ describe('pipeline.buildHeader properties', () => {
   describe('productId', () => {
     it('sets a default', () => {
       const header = buildHeader()
-      expect(header.productId).to.equal('adamgibbons/ics')
+      expect(header.productId).to.equal('dumbmoron/ics0')
     })
     it('sets a productId', () => {
       const header = buildHeader({ productId: 'productId' })
