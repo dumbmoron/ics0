@@ -1,5 +1,5 @@
 {
-  "name": "ics",
+  "name": "@dumbmoron/ics0",
   "version": "3.8.1",
   "description": "iCal (ics) file generator",
   "exports": {
